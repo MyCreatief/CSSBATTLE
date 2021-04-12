@@ -6,7 +6,7 @@
     <div :class="style.content" :style="{ backgroundPosition: (bgPosition  + 'px 0px')}">
       <div :class="style.parallaxbg" :style="{ backgroundPosition: (parallaxPosition  + 'px 0px')}"></div>
       <ul :class="style.slider" :style="{ left: sliderPosition + '%'}">
-        <Slide v-for="slide in slides" :title="slide.title" :imageSrc="slide.img"></Slide>
+        <Slide v-for="slide in slides" :title="slide.title" :imageSrc="slide.img" :list="slide.list"></Slide>
       </ul>
     </div><!-- sp-content -->
 

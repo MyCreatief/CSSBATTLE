@@ -1,27 +1,60 @@
 [
   {
-    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image1.png",
-    "alt":"image01",
-    "title":"Titel hier 1"
+    "title":"FRONTEND BATTLE",
+    "img":"https://habrastorage.org/files/908/267/b87/908267b8713f4e46b5eaa819a300f868.png",
+    "list": [
+      {"item":"Styled mdules", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"CSS components", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+    ]
   },
   {
     "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image2.png",
     "alt":"image01",
-    "title":"Titel hier 2"
+    "title":"Titel hier 2",
+    "list": [
+      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+    ]
   },
   {
     "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
     "alt":"image01",
-    "title":"Titel hier 3"
+    "title":"Titel hier 3",
+    "list": [
+      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+    ]
   },
   {
     "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
     "alt":"image01",
-    "title":"Titel hier 4"
+    "title":"Titel hier 4",
+    "list": [
+      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+    ]
   },
   {
     "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
     "alt":"image01",
-    "title":"Titel hier 5"
+    "title":"Titel hier 5",
+    "list": [
+      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+    ]
+  },
+  {
+    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "alt":"image01",
+    "title":"Titel hier 5",
+    "list": [
+      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+    ]
   }
 ]
