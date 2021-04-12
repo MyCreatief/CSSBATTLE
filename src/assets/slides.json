@@ -1,0 +1,27 @@
+[
+  {
+    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image1.png",
+    "alt":"image01",
+    "title":"Titel hier 1"
+  },
+  {
+    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image2.png",
+    "alt":"image01",
+    "title":"Titel hier 2"
+  },
+  {
+    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "alt":"image01",
+    "title":"Titel hier 3"
+  },
+  {
+    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "alt":"image01",
+    "title":"Titel hier 4"
+  },
+  {
+    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "alt":"image01",
+    "title":"Titel hier 5"
+  }
+]
