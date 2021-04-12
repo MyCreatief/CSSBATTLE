@@ -5,7 +5,7 @@
 
     <div :class="style.content" :style="{ backgroundPosition: (bgPosition  + 'px 0px')}">
       <div :class="style.parallaxbg" :style="{ backgroundPosition: (parallaxPosition  + 'px 0px')}"></div>
-      <ul :class="style.slider" :style="{ left: sliderPosition + '%'}">
+      <ul :class="style.slider" :style="{ left: sliderPosition + '%', width: sliderSize + '%' }">
         <Slide v-for="slide in slides" :title="slide.title" :imageSrc="slide.img" :list="slide.list"></Slide>
       </ul>
     </div><!-- sp-content -->
@@ -37,11 +37,13 @@
               parallaxPosition: 0,
               limit: 0,
               currentSlide: 0,
+              sliderSize: 0,
           }
         },
         methods: {
             limitCount: function () {
                 this.limit = this.slides.length;
+                this.sliderSize = (100 * this.limit) + 100;
             },
             left: function () {
                 console.log('click left');
@@ -53,7 +55,7 @@
                 }
             },
             right: function () {
-                if(this.currentSlide != this.limit) {
+                if(this.currentSlide != (this.limit - 1)) {
                     this.sliderPosition -= 100;
                     this.bgPosition -= 100;
                     this.parallaxPosition -= 200;
