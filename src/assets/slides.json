@@ -3,8 +3,8 @@
     "title":"FRONTEND BATTLE",
     "img":"https://habrastorage.org/files/908/267/b87/908267b8713f4e46b5eaa819a300f868.png",
     "list": [
-      {"item":"Styled mdules", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"CSS components", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+      {"item":"Styled components", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"CSS modules", "listitemcontent":"CSS-bestanden waarin alle klassenamen en animatienamen standaard lokaal worden gescoped."}
     ]
   },
   {
