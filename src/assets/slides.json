@@ -21,7 +21,7 @@
   {"title":"Styled components",
     "list": [
       {"item":"Geen aparte files", "listitemcontent":"Geen aparte files voor styling van het component"},
-      {"item":"Javascript voor styling", "listitemcontent":"Javascript gebruiken voor berekenen van styling zoals: een contract kleur berekenen van een font op een gekleurde achtergrond"},
+      {"item":"Javascript voor styling", "listitemcontent":"Javascript gebruiken voor berekenen van styling zoals: een contrast kleur berekenen van een font op een gekleurde achtergrond"},
       {"item":"white labeling vriendelijk", "listitemcontent":"d.m.v. themes een component geschrikt maken voor white labeling"},
       {"item": "SSR Support", "listitemcontent": "styled-components supports concurrent server-side rendering."}
     ]
