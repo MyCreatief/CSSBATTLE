@@ -27,7 +27,8 @@
 }
 
 .content {
-  background: #000000 url(https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/grid.png) repeat scroll 0 0;
+  background: $c-white url(../assets/grid.svg) repeat scroll 0 0;
+  background-size: 2%;
   position: relative;
   width: 100%;
   height: 100%;
@@ -37,8 +38,8 @@
 }
 
 .parallaxbg {
-  background: url(https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/map.png) repeat-x scroll 0 0;
-  background-size: cover;
+  background: url(../assets/Divotion2019_final_white.svg) no-repeat scroll 0 0;
+  background-size: 80%;
   position: absolute;
   top: 0;
   left: 0;

@@ -6,7 +6,7 @@
 }
 
 .item {
-  color: $c-white;
+  color: $c-tertiary;
   list-style: solid;
   text-align: left;
   counter-increment: list;
@@ -16,34 +16,40 @@
   position: relative;
   clear: both;
 
+  h3 {
+    color: $c-primary;
+    font-weight: 700;
+    font-size: 36px;
+  }
+
   &:before {
-    font: bold 2.25rem/1 var(--font-number);
-    content: counter(list);
-    width: 5rem;
-    height: 5rem;
-    float: left;
-    margin: 0 1.5rem 0.75rem 0;
-    color: $c-tertiary;;
-    background: $c-primary linear-gradient(to bottom right, $c-primary 25%, $c-secondary);
-    text-shadow: 0 0 2px $c-primary;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    shape-outside: ellipse();
-    z-index: 1;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 5px;
+    height: 50px;
+    top: .2em;
+    left: 0;
+    margin-left: -1.5rem;
+    background-color: $c-primary;
+    transform: skewY(
+                    30deg
+    );
   }
 
   &:after {
-    width: 2.5rem;
-    height: 2.5rem;
     position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
     content: "";
-    background: $c-primary;
-    z-index: -1;
-    border-top-left-radius: 3px;
+    width: 5px;
+    height: 50px;
+    left: 0;
+    margin-left: -1.5rem;
+    background-color: $c-primary;
+    top: .3em;
+    transform: skewY(
+                    -10deg
+    );
   }
 
   .headline {

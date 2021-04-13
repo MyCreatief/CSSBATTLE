@@ -1,10 +1,10 @@
 <template>
   <div :class="style.slideshow">
-    <Button @click="left" :buttonClass="[this.currentSlide == 0 ? style.hide : '', style.btn]"><</Button>
-    <Button @click="right" :buttonClass="[this.currentSlide == this.limit ? style.hide : '', style.btn]">></Button>
+    <Button @click="left" :buttonClass="[this.currentSlide == 0 ? style.hide : '', style.btn]"></Button>
+    <Button @click="right" :buttonClass="[this.currentSlide == this.limit ? style.hide : '', style.btn]"></Button>
 
     <div :class="style.content" :style="{ backgroundPosition: (bgPosition  + 'px 0px')}">
-      <div :class="style.parallaxbg" :style="{ backgroundPosition: (parallaxPosition  + 'px 0px')}"></div>
+      <div :class="style.parallaxbg" :style="{ backgroundPosition: (parallaxPosition  + '% 2rem')}"></div>
       <ul :class="style.slider" :style="{ left: sliderPosition + '%', width: sliderSize + '%' }">
         <Slide v-for="slide in slides" :title="slide.title" :imageSrc="slide.img" :list="slide.list"></Slide>
       </ul>
@@ -34,7 +34,7 @@
               slides: SlidesArray,
               sliderPosition: 0,
               bgPosition: 0,
-              parallaxPosition: 0,
+              parallaxPosition: 85,
               limit: 0,
               currentSlide: 0,
               sliderSize: 0,
@@ -46,19 +46,19 @@
                 this.sliderSize = (100 * this.limit) + 100;
             },
             left: function () {
-                console.log('click left');
                 if(this.currentSlide > 0) {
                   this.sliderPosition += 100;
                   this.bgPosition += 100;
-                  this.parallaxPosition += 200;
+                  this.parallaxPosition += (90 / this.limit );
                   this.currentSlide -= 1;
                 }
             },
             right: function () {
                 if(this.currentSlide != (this.limit - 1)) {
+                    console.log(this.limit / 80);
                     this.sliderPosition -= 100;
                     this.bgPosition -= 100;
-                    this.parallaxPosition -= 200;
+                    this.parallaxPosition -= (90 / this.limit );
                     this.currentSlide += 1;
                 }
             }

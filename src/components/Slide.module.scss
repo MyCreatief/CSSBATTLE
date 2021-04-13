@@ -1,12 +1,12 @@
 .title {
     grid-area: title;
-    color: coral;
+    color: $c-tertiary;
     font-size: 4rem;
     margin: 3rem 0;
 }
 
 .slide {
-    color: $c-white;
+    color: $c-tertiary;
     width: 100vw;
     height: 100%;
     float: left;

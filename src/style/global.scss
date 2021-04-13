@@ -1,3 +1,10 @@
+@import "./variables";
+
+@font-face {
+  font-family: 'muli';
+  src: url(../assets/muli/Muli.ttf) format('truetype');
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -7,6 +14,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  color: $c-tertiary;
 }
 
 html {
@@ -15,5 +23,9 @@ html {
 
 body {
   min-height: 100%;
-  font-family: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+  font-family: muli, Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: muli, sans-serif;
 }
