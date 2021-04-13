@@ -12,7 +12,7 @@
     "alt":"image01",
     "title":"Styled components",
     "list": [
-      {"item":"Vrijheid", "listitemcontent":"Styled components geeft je de vrijheid om custom components te maken. Dit werkt perfect hedendaagse webapplicaties."},
+      {"item":"Vrijheid", "listitemcontent":"Styled components geeft je de vrijheid om custom components te maken. Dit werkt perfect voor hedendaagse webapplicaties."},
       {"item":"Native mobile support", "listitemcontent":"Steeds meer react codebases worden ook ontwikkeld voor een react native variant, met styled component ben je hier goed op voorbereid"},
       {"item":"Scoped", "listitemcontent":"Scoped styles, ook voor nieuwe developers is het zorgeloos ontwikkelen aan de styles."},
       {"item": "SSR Support", "listitemcontent": "styled-components supports concurrent server-side rendering."}
