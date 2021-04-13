@@ -19,13 +19,11 @@
     ]
   },
   {
-    "img":"https://avatars.githubusercontent.com/u/20658825?s=400&v=4",
+    "img":"https://i.ibb.co/GP7xRRv/Schermafbeelding-2021-04-13-om-13-09-49.png",
     "alt":"image01",
-    "title":"Titel hier 3",
+    "title":"Voorbeeld",
     "list": [
-      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+      {"item":"Bewuste definities", "listitemcontent":"De developer gaat bewuster om het definieren van het gedrag"}
     ]
   },
   {
