@@ -3,22 +3,23 @@
     "title":"FRONTEND BATTLE",
     "img":"https://habrastorage.org/files/908/267/b87/908267b8713f4e46b5eaa819a300f868.png",
     "list": [
-      {"item":"Styled components", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
+      {"item":"Styled components", "listitemcontent":"is een CSS-in-JS style framework die het beste van Javascript en css samenbrengt voor het stylen van react componenten"},
       {"item":"CSS modules", "listitemcontent":"CSS-bestanden waarin alle klassenamen en animatienamen standaard lokaal worden gescoped."}
     ]
   },
   {
-    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image2.png",
+    "img":"https://avatars.githubusercontent.com/u/20658825?s=400&v=4",
     "alt":"image01",
-    "title":"Titel hier 2",
+    "title":"Styled components",
     "list": [
-      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+      {"item":"Vrijheid", "listitemcontent":"Styled components geeft je de absolute vrijheid om custom components te maken zoals hedendaagse webapplicaties worden gemaakt"},
+      {"item":"Native mobile support", "listitemcontent":"Steeds meer react codebases worden ook ontwikkeld voor een react native variant, met styled component ben je hier goed op voorbereid"},
+      {"item":"Scoped", "listitemcontent":"Scoped styles, ook voor nieuwe developers is het zorgeloos ontwikkelen aan de styles."},
+      {"item": "SSR Support", "listitemcontent": "styled-components supports concurrent server-side rendering."}
     ]
   },
   {
-    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "img":"https://avatars.githubusercontent.com/u/20658825?s=400&v=4",
     "alt":"image01",
     "title":"Titel hier 3",
     "list": [
