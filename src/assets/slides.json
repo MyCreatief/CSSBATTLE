@@ -1,10 +1,10 @@
 [
   {
-    "title":"FRONTEND BATTLE",
-    "img":"https://habrastorage.org/files/908/267/b87/908267b8713f4e46b5eaa819a300f868.png",
+    "title":"Styled Components en CSS Modules",
+    "img":"https://happy-d.nl/men.png",
     "list": [
-      {"item":"Styled components", "listitemcontent":"is een CSS-in-JS style framework die het beste van Javascript en css samenbrengt voor het stylen van react componenten"},
-      {"item":"CSS modules", "listitemcontent":"CSS-bestanden waarin alle klassenamen en animatienamen standaard lokaal worden gescoped."}
+      {"item":"Styled components", "listitemcontent":"is een CSS-in-JS style framework die het beste van Javascript en CSS samenbrengt voor het stylen van react componenten"},
+      {"item":"CSS modules", "listitemcontent":"Zoals de naam al doet vermoeden, zijn CSS-modules een manier om stijlen te modulariseren in kleinere stukken in plaats van enorme globale stijlbladen. Bovendien hebben alle klassenamen standaard een lokaal gescoped en kunnen ze worden geschreven in CSS, SCSS of alternatieven."}
     ]
   },
   {
@@ -21,41 +21,43 @@
   {
     "img":"https://avatars.githubusercontent.com/u/20658825?s=400&v=4",
     "alt":"image01",
-    "title":"Titel hier 3",
+    "title":"Styled components",
     "list": [
-      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+      {"item":"Geen aparte files", "listitemcontent":"Geen aparte files voor styling van het component"},
+      {"item":"Javascript voor styling", "listitemcontent":"Javascript gebruiken voor berekenen van styling zoals: een contract kleur berekenen van een font op een gekleurde achtergrond"},
+      {"item":"white labeling vriendelijk", "listitemcontent":"d.m.v. themes een component geschrikt maken voor white labeling"},
+      {"item": "SSR Support", "listitemcontent": "styled-components supports concurrent server-side rendering."}
     ]
   },
   {
-    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "img":"https://engineering.invisionapp.com/images/introduction-CSS-modules/css-modules-logo.png",
     "alt":"image01",
-    "title":"Titel hier 4",
+    "title":"CSS Modules",
     "list": [
-      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+      {"item":"(S)CSS", "listitemcontent":"Normale (S)CSS wordt ingezet met alle voordelen hiervan (mapping, variables, mixins etc)."},
+      {"item":"Component Scoped", "listitemcontent":"Alleen van toepassing op dat onderdeel waar het voor bedoelt is en niets anders."},
+      {"item":"BEM niet vereist", "listitemcontent":"Class namen worden omgezet unieke en leesbare namen."},
+      {"item":"Mappen structuur", "listitemcontent":"Het kan in eigen (S)CSS bestanden worden gezet."},
+      {"item":"Globale Stijlen", "listitemcontent":"Globale stijling is nogsteeds mogelijk wat handig is voor a.s.: Reset styles, Typography en b.v. body en html tags."}
     ]
   },
   {
-    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "img":"https://raw.githubusercontent.com/fjc0k/vue-css-modules/HEAD/assets/logo.png",
     "alt":"image01",
-    "title":"Titel hier 5",
+    "title":"Werkend voorbeeld van CSS Modules",
     "list": [
-      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+      {"item":"VUE", "listitemcontent":" "},
+      {"item":"SCSS Modules", "listitemcontent":" "}
     ]
   },
   {
-    "img":"https://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/images/image3.png",
+    "img":"data:image/png;base64,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",
     "alt":"image01",
-    "title":"Titel hier 6",
+    "title":"Bedankt!",
     "list": [
-      {"item":"item een", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item twee", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."},
-      {"item":"item drie", "listitemcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque."}
+      {"item":"Sjoerd", "listitemcontent":" "},
+      {"item":"Randy", "listitemcontent":" "},
+      {"item":"Mylene", "listitemcontent":" "}
     ]
   }
 ]
